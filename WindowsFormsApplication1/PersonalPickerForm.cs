@@ -2,7 +2,7 @@
 using System.Text;
 using System.Windows.Forms;
 
-
+// Information for Github
 namespace USZPersonnelPickerCOM
 {
     public partial class PersonalPickerForm : Form
