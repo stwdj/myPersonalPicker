@@ -4,17 +4,17 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace WindowsFormsApplication1
+namespace PersonalPickerMain
 {
     static class Program
     {
         /// <summary>
         /// Der Haupteinstiegspunkt für die Anwendung.
+        /// Diese Applikation erlaubt "Type as you search"
         /// </summary>
         [STAThread]
         static void Main(string[] args)
         {
-
 
             //Befehlszeilenargumente auslesen
 
@@ -32,9 +32,9 @@ namespace WindowsFormsApplication1
                 mytitle = "Test";
             }
 
-            USZPersonnelPickerCOM.PersonalPickerForm shag = new USZPersonnelPickerCOM.PersonalPickerForm(mytitle);
+            USZPersonnelPicker.PersonalPickerForm shag = new USZPersonnelPicker.PersonalPickerForm(mytitle);
             Application.Run(shag);
-
+            
             //MessageBox.Show(shag.ReturnListOfPeople);
             Console.WriteLine(shag.ReturnListOfPeople);
 

@@ -3,7 +3,7 @@ using System.Text;
 using System.Windows.Forms;
 
 // Information for Github
-namespace USZPersonnelPickerCOM
+namespace USZPersonnelPicker
 {
     public partial class PersonalPickerForm : Form
     {
